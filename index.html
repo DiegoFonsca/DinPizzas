@@ -1,0 +1,193 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dinn Pizzas</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@8.0.13/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@8.0.13/dist/ionicons/ionicons.js"
+    ></script>
+  </head>
+  <body>
+    <header>
+      <a href="#home" class="logo"
+        ><img id="logo" src="images/logo.png" alt="Logo hash pizza"
+      /></a>
+      <nav id="navbar">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">Sobre nós</a></li>
+        <li><a href="#cardapioMenu">Cardápio</a></li>
+        <li><a href="#combo">Combos</a></li>
+      </nav>
+      <div class="icones">
+        <i><ion-icon class="icone" name="person"></ion-icon></i>
+        <i><ion-icon class="icone" name="search"></ion-icon></i>
+        <i><ion-icon class="icone" name="cart"></ion-icon></i>
+        <i class="menu icone" id="menu-btn"
+          ><ion-icon name="menu"></ion-icon
+        ></i>
+      </div>
+    </header>
+    <section id="home">
+      <div class="textoHome">
+        <h1 class="textoHomeH1">bem vindo à DinPizzas!</h1>
+        <p class="textoHomeP">
+          Descubra o sabor autêntico das nossas pizzas artesanais, preparadas
+          com ingredientes frescos e de alta qualidade. Venha experimentar uma
+          experiência gastronômica inesquecível!
+        </p>
+        <a class="homeBotao" href="#home">Faça seu pedido!</a>
+      </div>
+      <div id="homeImagem">
+        <img class="imagem-home" src="images/home.jpg" alt="" />
+      </div>
+    </section>
+    <section id="about" class="about">
+      <h1>Sobre <span>Nós</span></h1>
+      <div class="aboutContainer">
+        <div class="sobreImagem">
+          <img src="images/sobre.jpg" alt="Sobre nós" />
+        </div>
+        <div class="textoSobrenos">
+          <h2>O que torna a DinPizzas única?</h2>
+          <p>
+            Na DinPizzas, não é apenas sobre pizza – é sobre criar experiências
+            memoráveis. Fundada com a paixão por comida de qualidade e um
+            compromisso com a excelência, nossa pizzaria combina tradição e
+            inovação para oferecer o melhor em cada fatia. Nossos ingredientes
+            são cuidadosamente selecionados para garantir frescor e sabor.
+            <br />
+            Usamos técnicas de preparo artesanais para criar massas
+            incrivelmente leves e crocantes, e nossos molhos são feitos a partir
+            de tomates frescos e especiarias únicas.
+          </p>
+          <a href="#">Saiba mais</a>
+        </div>
+      </div>
+    </section>
+    <section id="cardapioMenu" class="cardapioMenu">
+      <h1>Nosso <span>Menu</span></h1>
+      <div class="containerMenu">
+        <div class="cardmenu">
+          <img src="images/pizza_item_1.jpg" alt="Pizza 1" />
+          <h2>Explosão de Pepperoni</h2>
+          <p>55.00 <span>60.99</span></p>
+          <a href="#">Clique aqui</a>
+        </div>
+        <div class="cardmenu">
+          <img src="images/pizza_item_2.jpg" alt="Pizza 2" />
+          <h2>Explosão de Pepperoni</h2>
+          <p>45.00 <span>60.99</span></p>
+          <a href="#">Clique aqui</a>
+        </div>
+        <div class="cardmenu">
+          <img src="images/pizza_item_3.jpg" alt="Pizza 3" />
+          <h2>Explosão de Pepperoni</h2>
+          <p>75.00 <span>80.99</span></p>
+          <a href="#">Clique aqui</a>
+        </div>
+        <div class="cardmenu">
+          <img src="images/pizza_item_4.jpg" alt="Pizza 4" />
+          <h2>Explosão de Pepperoni</h2>
+          <p>45.00 <span>50.99</span></p>
+          <a href="#">Clique aqui</a>
+        </div>
+        <div class="cardmenu">
+          <img src="images/pizza_item_5.jpg" alt="Pizza 5" />
+          <h2>Explosão de Pepperoni</h2>
+          <p>55.90 <span>60.99</span></p>
+          <a href="#">Clique aqui</a>
+        </div>
+        <div class="cardmenu">
+          <img src="images/pizza_item_6.jpg" alt="Pizza 6" />
+          <h2>Explosão de Pepperoni</h2>
+          <p>85.00 <span>60.99</span></p>
+          <a href="#">Clique aqui</a>
+        </div>
+      </div>
+    </section>
+    <section class="combo" id="combo">
+      <h1>Combo <span>+ Promoções</span></h1>
+      <div class="comboContainer">
+        <div class="card">
+          <div class="comboIcone">
+            <i><ion-icon name="eye"></ion-icon></i>
+            <i><ion-icon name="heart"></ion-icon></i>
+            <i><ion-icon name="cart"></ion-icon></i>
+            <img src="images/promo_1.jpg" alt="Combo 1" />
+            <div class="textoCombo">
+              <h2>Pizza + Coca-Cola</h2>
+              <p>50.00 <span>a partir de</span></p>
+              <a href="">Clique Aqui</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="comboIcone">
+            <i><ion-icon name="eye"></ion-icon></i>
+            <i><ion-icon name="heart"></ion-icon></i>
+            <i><ion-icon name="cart"></ion-icon></i>
+            <img src="images/promo_2.jpg" alt="Combo 1" />
+            <div class="textoCombo">
+              <h2>Pizza + Refrigerante 350ml</h2>
+              <p>64.99 <span>a partir de</span></p>
+              <a href="">Clique Aqui</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="comboIcone">
+            <i><ion-icon name="eye"></ion-icon></i>
+            <i><ion-icon name="heart"></ion-icon></i>
+            <i><ion-icon name="cart"></ion-icon></i>
+            <img src="images/promo_3.jpg" alt="Combo 1" />
+            <div class="textoCombo">
+              <h2>Pizza + Refrigerante 600ml</h2>
+              <p>54.99 <span>a partir de</span></p>
+              <a href="">Clique Aqui</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="rodape" id="rodape">
+      <div class="cards">
+        <div class="card1">
+          <h2>DIN<span>PIZZAS</span></h2>
+          <a href="#home">Bem Vindo</a>
+          <a href="#about">Sobre nós</a>
+          <a href="#cardapioMenu">Nosso Menu</a>
+          <a href="#combo">Combos</a>
+        </div>
+        <div class="card2">
+          <h2>OBTENHA <span>AJUDA</span></h2>
+          <a href="#">FAQ</a>
+          <a href="#">Devoluções</a>
+          <a href="#">Opções de Pagamento</a>
+        </div>
+        <div class="card3">
+          <h2>SIGA-NOS</h2>
+
+          <div class="footer-icones">
+            <a href="https://www.linkedin.com/in/dev-diego-fonseca"
+              ><ion-icon name="logo-linkedin"></ion-icon
+            ></a>
+            <a href="https://github.com/DiegoFonsca"
+              ><ion-icon name="logo-github"></ion-icon
+            ></a>
+          </div>
+          <h3 class="textinho">® Todos os direitos reservados</h3>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
